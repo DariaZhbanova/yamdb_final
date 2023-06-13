@@ -42,8 +42,8 @@ jobs:
           uses: docker/build-push-action@v2 
           with:
           context: ./api_yamdb/
-            push: true
-            tags: dashazhbanova/web:latest
+          push: true
+          tags: dashazhbanova/web:latest
 
   deploy:
     runs-on: ubuntu-latest

@@ -10,7 +10,8 @@ services:
       - ./.env
 
   web:
-    build: dashazhbanova/web:latest
+    # build: dashazhbanova/web:latest
+    image: dashazhbanova/web:latest
     restart: always
     volumes:
       - static_value:/app/static/

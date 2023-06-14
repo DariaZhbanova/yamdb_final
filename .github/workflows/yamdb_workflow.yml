@@ -43,7 +43,7 @@ jobs:
           with:
             context: ./api_yamdb/
             push: true
-            tags: dashazhbanova/web:latest
+            tags: dashazhbanova/api-yamdb-web:latest
 
   deploy:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.7"
 
 services:
 
@@ -11,6 +11,9 @@ services:
 
   web:
     image: dashazhbanova/web:latest
+    # build: 
+    #   context: ../api_yamdb/
+    #   dockerfile: Dockerfile
     restart: always
     volumes:
       - static_value:/app/static/
